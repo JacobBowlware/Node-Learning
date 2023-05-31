@@ -1,0 +1,52 @@
+[
+    {
+        "_id": "5a68fdc3615",
+        "tags": [
+            "express",
+            "backend"
+        ],
+        "date": "2018-01-25T15:00:19.000Z",
+        "title": "Express Backend",
+        "content": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
+    },
+    {
+        "_id": "5a68fdd7bee",
+        "tags": [
+            "node",
+            "backend"
+        ],
+        "date": "2018-01-25T15:00:19.000Z",
+        "title": "Node Backend",
+        "content": "Node.js is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser."
+    },
+    {
+        "_id": "5a68fdeeddd",
+        "tags": [
+            "react",
+            "frontend"
+        ],
+        "date": "2018-01-25T15:00:19.000Z",
+        "title": "React Frontend",
+        "content": "React is a JavaScript library for building user interfaces."
+    },
+    {
+        "_id": "5a68fde3f09ad",
+        "tags": [
+            "angular",
+            "frontend"
+        ],
+        "date": "2018-01-25T15:00:19.000Z",
+        "title": "Angular Frontend",
+        "content": "Angular is a TypeScript-based open-source front-end web application platform."
+    },
+    {
+        "_id": "5a68fe2142ae6a",
+        "tags": [
+            "Vue",
+            "frontend"
+        ],
+        "date": "2018-01-25T15:00:19.000Z",
+        "title": "Vue Frontend",
+        "content": "Vue.js is an open-source JavaScript framework for building user interfaces and single-page applications."
+    }
+]

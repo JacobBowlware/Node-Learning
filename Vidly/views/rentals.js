@@ -4,6 +4,7 @@ const { Movie } = require('../models/movie');
 const { Customer } = require('../models/customer');
 const { Rental, validateRental } = require('../models/rental');
 
+
 router.get('/', async (req, res) => {
     const rentals = await Rental.find().sort('dateOut');
     res.send(rentals);
@@ -20,7 +21,6 @@ router.post('/', async (req, res) => {
     if (!movie) return res.status(400).send('Movie with given ID was not found.');
 
     if (movie.numberInStock === 0) return res.status(400).send('Movie not in stock.');
-    console.log(customer.name + " " + customer.phone);
     const rental = new Rental({
         customer: {
             _id: customer._id,

@@ -1,8 +1,11 @@
+const Joi = require('joi');
+Joi.objectId = require('joi-objectid')(Joi);
 const express = require('express');
 const genres = require('./views/genres');
 const customers = require('./views/customers');
 const movies = require('./views/movies');
 const rentals = require('./views/rentals');
+const users = require('./views/users');
 const mongoose = require('mongoose');
 const app = express();
 
@@ -15,6 +18,7 @@ app.use('/api/genres', genres);
 app.use('/api/customers', customers);
 app.use('/api/movies', movies);
 app.use('/api/rentals', rentals);
+app.use('/api/users', users);
 
 
 const port = process.env.PORT || 3000;
